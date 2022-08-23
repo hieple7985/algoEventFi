@@ -1,4 +1,4 @@
 # algoEventFi
 A decentralized SocialFI for event crowd funding.
 
-Pushing Code will be updated soon
+The code and video demo link will be updated soon
