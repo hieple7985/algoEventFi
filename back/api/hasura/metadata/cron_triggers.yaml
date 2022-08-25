@@ -1,0 +1,10 @@
+- name: close_cf
+  webhook: https://ntsv4a.herokuapp.com/eventcf/close_eventcf
+  schedule: '*/5 * * * *'
+  include_in_metadata: true
+  payload: {}
+- name: close_event
+  webhook: https://ntsv4a.herokuapp.com/event/close
+  schedule: '*/5 * * * *'
+  include_in_metadata: true
+  payload: {}

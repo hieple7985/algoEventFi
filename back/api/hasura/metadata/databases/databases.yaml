@@ -1,0 +1,9 @@
+- name: dd72akh8i0riev
+  kind: postgres
+  configuration:
+    connection_info:
+      use_prepared_statements: false
+      database_url:
+        from_env: PG_DATABASE_URL
+      isolation_level: read-committed
+  tables: "!include dd72akh8i0riev/tables/tables.yaml"
